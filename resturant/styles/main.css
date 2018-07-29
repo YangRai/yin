@@ -1,0 +1,196 @@
+/*----------------------------------------------
+		          COLOR GUIDE
+
+BLACK:rgb(15,15,15)
+	  rgb(15,15,15,0.74)
+WHITE:rgb(226,226,226)
+Gold: rgb(172,140,71)
+
+---------------------------------------------*/
+
+/*----------------------------------------------
+		          GlOBAL STYLE
+---------------------------------------------*/
+html,body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+body{
+	font-size:19px;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: rgb(226,226,226);
+	background: rgb(15,15,15);
+	
+}
+
+h1,h2,h3{
+font-family: 'Alegreya SC','Times New Roman', sans-serif;
+}
+
+img{
+	width: 100%;
+}
+
+/*---------------------------------------------
+		          GlOBAL FOOTER STYLE
+---------------------------------------------*/
+
+footer{
+	padding:10px 0px;
+}
+
+footer h4{
+	text-transform: uppercase;
+}
+
+footer p{
+	margin: 0;
+}
+
+/*----------------------------------------------
+		          GlOBAL FOOTER STYLE
+---------------------------------------------*/
+
+.container{
+	width: 100%;
+	height: 100%;
+	background: #181818;
+
+}
+
+.about{
+	height: 300px;
+	background:#212733;
+	padding:10px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.about h2{
+	font-size: 35px;
+	margin-top:80px;
+	width: 80%;
+	margin-left:auto;
+	margin-right: auto;
+
+}
+
+.about p{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.inner-container{
+	
+	width: 100%;
+	height: 100%;
+	background: url(../images/main-bg.jpeg)no-repeat;
+	background-size: cover;
+	opacity: .9;
+}
+
+.inner-container h1{
+	position: absolute;
+	top: 30%;
+	font-size: 80px;
+	width: 100%;
+	text-align: center;
+	text-shadow: 0px 0px 20px blue;
+
+}
+
+nav {
+	width: 100%;
+	background: #181818;
+	height: 60px;
+
+}
+nav ul {
+	float: right;
+	padding-right: 20px;
+}
+
+nav ul li{
+display: inline;
+padding: 10px;
+}
+
+a{
+	color:rgb(172,140,71);
+	font-style: bold;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: #f5f5f5;
+}
+
+.main-page-description{
+	text-align: center;
+	width: 31.33%;
+	padding:1%;
+	float: left;
+	height: auto;
+	margin:30px 0px 50px 0px;
+}
+
+footer{
+	text-align: center;
+	position:relative;
+}
+
+.menu-info{
+	width: 90%;
+	margin:40px 5%;
+	text-align: center;
+
+}
+
+.img-gallery{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	grid-gap: 2em;
+
+}
+
+.food-menu{
+	width: 100%;
+	text-align: center;
+	background: #212733;
+	padding: 10px 0px;
+	margin-top: 20px;
+
+}
+
+.food-menu li{
+	list-style-type: none;
+	margin-left: -35px;
+}
+
+.food-menu h3{
+	text-decoration: underline;
+}
+
+
+.location-desc{
+	width: 80%;
+	margin: 0 auto;
+}
+
+aside{
+	width: 40%;
+	margin:0 auto;
+	text-align: center;
+
+}
+
+aside li{
+	list-style-type: none;
+}
+
